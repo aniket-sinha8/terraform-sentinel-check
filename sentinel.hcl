@@ -1,6 +1,6 @@
-module "tfplan" {
-  source = "./mocks/azure-vm-mock-tfplan-v2.sentinel"
-}
+# module "tfplan" {
+#   source = "./mocks/azure-vm-mock-tfplan-v2.sentinel"
+# }
 
 module "tfplan-functions" {
     source = "./common-functions/tfplan-functions.sentinel"
